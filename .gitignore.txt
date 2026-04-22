@@ -1,0 +1,14 @@
+# Ignore data, zip files, and figures
+*.csv
+*.parquet
+*.png
+*.zip
+/data/
+
+# Ignore Jupyter checkpoints and Python cache
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Ignore secrets/configs (if you have local env files)
+.env
